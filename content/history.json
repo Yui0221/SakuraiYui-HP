@@ -1,0 +1,63 @@
+{
+  "_comment": "年表データ。主にWikipedia(2026-07-04確認)に基づく。ソースにより日付が揺れる項目は note に記載。",
+  "events": [
+    {
+      "date": "2013年10月",
+      "title": "ピンク・ベイビーズとしてアイドルデビュー",
+      "body": "ピンク・レディーの楽曲を歌い継ぐコンセプトのボーカルダンスユニット「ピンク・ベイビーズ」のメンバーとしてお披露目。",
+      "era": "前史"
+    },
+    {
+      "date": "2017年4月",
+      "title": "ピンク・ベイビーズ卒業",
+      "body": "約3年半の活動を経てグループを卒業。",
+      "era": "前史"
+    },
+    {
+      "date": "2020年1月",
+      "title": "MyDearDarlin' 結成メンバーに",
+      "body": "同年中に卒業(卒業月はソースにより6月/7月と揺れあり・要確認)。",
+      "era": "前史"
+    },
+    {
+      "date": "2020年12月〜2022年3月",
+      "title": "BlooDye で活動",
+      "body": "2021年10月〜11月には momograci のコラボメンバーとしても活動。",
+      "era": "前史"
+    },
+    {
+      "date": "2021年12月",
+      "title": "アソビシステム所属を発表",
+      "body": "現所属事務所のアソビシステムへ。",
+      "era": "前史"
+    },
+    {
+      "date": "2022年2月22日",
+      "title": "FRUITS ZIPPER 加入発表",
+      "body": "アソビシステムの新プロジェクト「KAWAII LAB.」発のアイドルグループ FRUITS ZIPPER のメンバーに。ミントグリーン担当。同年4月にお披露目。",
+      "era": "FRUITS ZIPPER"
+    },
+    {
+      "date": "2024年2月",
+      "title": "1st写真集「YUi」発売",
+      "body": "初のソロ写真集をリリース。",
+      "era": "FRUITS ZIPPER"
+    },
+    {
+      "date": "2025年9月",
+      "title": "ソロメジャーデビュー",
+      "body": "ソロ楽曲「キミのことが好きなわたしが好き」をリリースし、ソロアーティストとしてもデビュー。",
+      "era": "FRUITS ZIPPER"
+    },
+    {
+      "date": "2026年2月",
+      "title": "「Beauty of the year 2026」ネイル部門受賞",
+      "body": "特技のネイルで受賞。",
+      "era": "FRUITS ZIPPER"
+    }
+  ],
+  "sources": [
+    { "label": "Wikipedia - 櫻井優衣", "url": "https://ja.wikipedia.org/wiki/櫻井優衣" },
+    { "label": "オシカツLAB", "url": "https://oshikatsu.co.jp/fruit-zipper/sakurai-yui/" }
+  ]
+}

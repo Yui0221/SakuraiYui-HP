@@ -1,0 +1,102 @@
+{
+  "_comment": "2026-07-04 にWikipedia(FRUITS ZIPPER / 櫻井優衣)で確認したリリース情報。配信シングルは多数あるため代表曲を抜粋。追加はこのファイルに追記するだけでOK。",
+  "sections": [
+    {
+      "title": "ソロ作品",
+      "items": [
+        {
+          "title": "キミのことが好きなわたしが好き",
+          "date": "2025年9月19日",
+          "type": "ソロメジャーデビュー曲",
+          "note": "ソロアーティストとしてのメジャーデビュー作。"
+        },
+        {
+          "title": "恋はレモン色",
+          "date": "2018年7月",
+          "type": "ソロシングル",
+          "note": "FRUITS ZIPPER加入前にリリースしたソロ作品。"
+        }
+      ]
+    },
+    {
+      "title": "FRUITS ZIPPER — CDシングル・アルバム",
+      "items": [
+        {
+          "title": "わたしの一番かわいいところ",
+          "date": "2023年9月13日",
+          "type": "1st CDシングル",
+          "note": "グループの代表曲。配信は2022年4月29日。"
+        },
+        {
+          "title": "NEW KAWAII(アルバム)",
+          "date": "2024年4月10日",
+          "type": "1stアルバム",
+          "note": ""
+        },
+        {
+          "title": "NEW KAWAII/フルーツバスケット",
+          "date": "2024年9月18日",
+          "type": "2nd CDシングル",
+          "note": ""
+        },
+        {
+          "title": "KawaiiってMagic",
+          "date": "2025年5月14日",
+          "type": "3rd CDシングル",
+          "note": ""
+        },
+        {
+          "title": "はちゃめちゃわちゃライフ!/JAM",
+          "date": "2025年10月15日",
+          "type": "4th CDシングル",
+          "note": ""
+        },
+        {
+          "title": "ぱわーオブらぶ/センセーション",
+          "date": "2026年7月15日(予定)",
+          "type": "5th CDシングル",
+          "note": "発売予定(2026年7月時点)。"
+        }
+      ]
+    },
+    {
+      "title": "FRUITS ZIPPER — 配信シングル(抜粋)",
+      "items": [
+        {
+          "title": "君の明るい未来を追いかけて",
+          "date": "2022年4月10日",
+          "type": "配信シングル",
+          "note": "グループ初の配信シングル。"
+        },
+        {
+          "title": "わたしの一番かわいいところ",
+          "date": "2022年4月29日",
+          "type": "配信シングル",
+          "note": "TikTok等で大きな話題となった代表曲。"
+        },
+        {
+          "title": "ふれふるサマー！",
+          "date": "2022年8月19日",
+          "type": "配信シングル",
+          "note": ""
+        },
+        {
+          "title": "NEW KAWAII",
+          "date": "2024年3月22日",
+          "type": "配信シングル",
+          "note": ""
+        },
+        {
+          "title": "ぶちかませよ！",
+          "date": "2026年3月11日",
+          "type": "配信シングル",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "sources": [
+    { "label": "Wikipedia - FRUITS ZIPPER", "url": "https://ja.wikipedia.org/wiki/FRUITS_ZIPPER" },
+    { "label": "Wikipedia - 櫻井優衣", "url": "https://ja.wikipedia.org/wiki/櫻井優衣" }
+  ]
+}

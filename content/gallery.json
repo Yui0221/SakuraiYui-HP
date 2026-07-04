@@ -1,0 +1,4 @@
+{
+  "_comment": "画像は public/images/ に置き(gitには含まれない設定)、下の images 配列に追記してください。例: { \"src\": \"/images/example.jpg\", \"caption\": \"説明文\", \"width\": 1200, \"height\": 800 }",
+  "images": []
+}
