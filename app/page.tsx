@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { navItems } from "@/content/site";
+import { navItems, withBasePath } from "@/content/site";
 import { Reveal } from "@/components/Reveal";
 
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
           </div>
           <div className="order-1 md:order-2">
             <Image
-              src="/images/hero.jpeg"
+              src={withBasePath("/images/hero.jpeg")}
               alt="櫻井優衣"
               width={768}
               height={1024}

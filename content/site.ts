@@ -1,3 +1,11 @@
+// GitHub Pages はサブパス配信のため、public/ 配下の画像パスにはこれを前置する
+// (next/image の文字列 src には basePath が自動付与されないため)
+export const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
+export function withBasePath(path: string): string {
+  return `${basePath}${path}`;
+}
+
 export const siteConfig = {
   name: "櫻井優衣 Fan Site",
   shortName: "YUI SAKURAI",
