@@ -1,0 +1,26 @@
+{
+  "projectId": "a6030261-87a5-4aed-b125-4ec0def54f55",
+  "shape": "package",
+  "pkg": "sakurai-yui-hp",
+  "globalName": "SakuraiYuiHP",
+  "srcDir": "components",
+  "entry": "./.design-sync/ds-entry.ts",
+  "componentSrcMap": {
+    "Header": "components/Header.tsx",
+    "Footer": "components/Footer.tsx",
+    "PageHeader": "components/PageHeader.tsx",
+    "GalleryGrid": "components/GalleryGrid.tsx",
+    "Reveal": "components/Reveal.tsx",
+    "ThemeToggle": "components/ThemeToggle.tsx"
+  },
+  "tsconfig": "tsconfig.json",
+  "buildCmd": "npm run build && node .design-sync/collect-css.mjs",
+  "cssEntry": ".design-sync/build-css/app.css",
+  "extraFonts": [
+    ".design-sync/build-css/font-1.css",
+    ".design-sync/build-css/font-2.css"
+  ],
+  "extraEntries": ["./.design-sync/preview-support.tsx"],
+  "provider": { "component": "NextPreviewProvider" },
+  "readmeHeader": ".design-sync/conventions.md"
+}
