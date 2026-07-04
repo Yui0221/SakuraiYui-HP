@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+/*
+ * デザイントークン
+ * 基調色はメンバーカラーの「ミントグリーン」
+ * (出典: oshikatsu.co.jp / ticketjam.jp ほか複数ソースで確認済み)
+ * アクセントにKAWAII LAB.らしいピンクを少量使用。
+ */
+:root {
+  --background: #f7fdfb;
+  --surface: #ffffff;
+  --foreground: #223832;
+  --muted: #6b8a80;
+  --primary: #3ec9a7;
+  --primary-soft: #d9f5ec;
+  --primary-strong: #1e9c7d;
+  --accent: #ff9ec6;
+  --border: #d8ede6;
+}
+
+.dark {
+  --background: #101c18;
+  --surface: #18271f;
+  --foreground: #e8f5f0;
+  --muted: #93b3a7;
+  --primary: #5fd3b3;
+  --primary-soft: #24443a;
+  --primary-strong: #8ce8cc;
+  --accent: #ffb0d0;
+  --border: #2a4038;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-primary: var(--primary);
+  --color-primary-soft: var(--primary-soft);
+  --color-primary-strong: var(--primary-strong);
+  --color-accent: var(--accent);
+  --color-border: var(--border);
+  --font-sans: var(--font-zen-maru), sans-serif;
+  --font-display: var(--font-mplus-rounded), var(--font-zen-maru), sans-serif;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: var(--primary-soft);
+}
+
+/* View Transitions のデフォルト(クロスフェード)を少し丁寧に */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.25s;
+}
+
+/* アニメーション抑制設定を尊重 */
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_comment": "2026-07-04 にWeb検索で裏取りした情報。複数ソースで一致した項目のみ記載。編集はこのファイルだけでOK。",
+  "name": "櫻井優衣",
+  "nameEn": "YUI SAKURAI",
+  "nameKana": "さくらい ゆい",
+  "group": "FRUITS ZIPPER",
+  "agency": "アソビシステム(KAWAII LAB.)",
+  "basics": [
+    { "label": "生年月日", "value": "2000年2月21日" },
+    { "label": "出身地", "value": "東京都" },
+    { "label": "身長", "value": "157cm" },
+    { "label": "血液型", "value": "B型" },
+    { "label": "メンバーカラー", "value": "ミントグリーン" },
+    { "label": "ニックネーム", "value": "ゆいちゃん、ゆいゆい ほか" }
+  ],
+  "likes": [
+    { "label": "趣味", "value": "紅茶、ラーメン巡り、メイク研究、プラネタリウム鑑賞" },
+    { "label": "特技", "value": "ネイル" }
+  ],
+  "intro": "2013年にアイドルデビューして以来、複数のグループを経て、2022年よりFRUITS ZIPPERのミントグリーン担当として活動中。アイドル歴10年以上のキャリアを持つ。",
+  "sources": [
+    { "label": "Wikipedia - 櫻井優衣", "url": "https://ja.wikipedia.org/wiki/櫻井優衣" },
+    { "label": "オシカツLAB", "url": "https://oshikatsu.co.jp/fruit-zipper/sakurai-yui/" },
+    { "label": "ticketjam", "url": "https://ticketjam.jp/magazine/music/idol/119887" }
+  ]
+}
