@@ -41,7 +41,9 @@ yarn-error.log*
 next-env.d.ts
 
 # fan-site images (copyrighted material stays local)
-/public/images/
+/public/images/*
+# ただし自分で撮影/所有しているヒーロー画像は公開サイトに含める
+!/public/images/hero.jpeg
 
 # design-sync (regenerated machine state)
 /.ds-sync/

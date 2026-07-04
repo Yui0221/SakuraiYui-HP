@@ -2,7 +2,7 @@
 
 櫻井優衣紹介ホームページレポジトリ
 
-FRUITS ZIPPER 櫻井優衣さんを紹介する、非公式・個人のファンサイトです(公開・商用利用はしません)。
+FRUITS ZIPPER 櫻井優衣さんを紹介する、非公式・個人のファンサイトです(商用利用はしません)。GitHub Pages で公開しています。
 
 ## 技術スタック
 
@@ -22,8 +22,16 @@ export PATH="$HOME/.local/node/bin:$PATH"
 ```sh
 npm install      # 初回のみ
 npm run dev      # 開発サーバー (http://localhost:3000)
-npm run build && npm start   # 本番ビルドで確認
+npm run build     # 静的エクスポート (out/ に生成。GitHub Pages 用のため `next start` は使えません)
 ```
+
+## 公開(GitHub Pages)
+
+`main` に push すると `.github/workflows/deploy.yml` が自動でビルド・デプロイします。
+
+- 公開URL: `https://<ユーザー名>.github.io/SakuraiYui-HP/`
+- 初回のみ、リポジトリの Settings → Pages → Source を **GitHub Actions** に設定してください
+- `next.config.ts` の `basePath`/`assetPrefix` はリポジトリ名 `SakuraiYui-HP` に合わせて設定済みです。リポジトリ名を変える場合はここも変更してください
 
 ## コンテンツの編集
 
